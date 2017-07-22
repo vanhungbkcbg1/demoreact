@@ -9,7 +9,7 @@ class App extends React.Component {
    }
 
    constructor(props){
-      super(props)
+      super(props);
       this.state={name:"vanhung"};
       this.clickHandle=this.clickHandle.bind(this);
    }
